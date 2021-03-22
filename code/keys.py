@@ -6,6 +6,10 @@ import sys
 default_alphabet = "air bat cap drum each fine gust harp sit jury crunch look made near odd pit quench red sun trap urge vest whale plex yank zip".split(
     " "
 )
+# Phonetic version
+default_alphabet = 'alpha bravo charlie del echo foxtrot golf hotel india juliet kilo lima mike november oscar papa queen romeo sierra tango uni victor whiskey x-ray yankee zulu'.split(
+    " "
+)
 letters_string = "abcdefghijklmnopqrstuvwxyz"
 
 default_digits = "zero one two three four five six seven eight nine".split(" ")
