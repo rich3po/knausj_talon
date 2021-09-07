@@ -84,3 +84,7 @@ class user_actions:
         actions.key("ctrl-c")
         actions.insert("y")
         actions.key("enter")
+
+    def tab_jump(number: int):
+        if number < 9:
+            actions.key("cmd-{}".format(number))

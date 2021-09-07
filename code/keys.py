@@ -140,7 +140,7 @@ punctuation_words = {
     "back tick": "`",
     "comma": ",",
     "period": ".",
-    "semicolon": ";",
+    "semi": ";",
     "colon": ":",
     "forward slash": "/",
     "question mark": "?",
@@ -151,7 +151,7 @@ punctuation_words = {
     "hash sign": "#",
     "number sign": "#",
     "percent sign": "%",
-    "at sign": "@",
+    "@": "@",
     "and sign": "&",
     "ampersand": "&",
 }
