@@ -8,7 +8,7 @@ insert sick: "Thanks,\n\nRich Jones\nTechnical Account Manager EMEA | Acquia"
 more <user.text>:
     " "
     "{text}"
-, <user.text>:
+comma <user.text>:
     ", "
     "{text}"
 period <user.text>:
