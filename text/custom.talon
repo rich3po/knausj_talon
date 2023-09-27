@@ -17,6 +17,9 @@ period <user.text>:
 question <user.text>:
     "? "
     insert(user.formatted_text(text, "CAPITALIZE_FIRST_WORD"))
+dash <user.text>:
+    " – "
+    insert(user.formatted_text(text, "NOOP"))
 dot <user.text>:
     "."
     "{text}"
