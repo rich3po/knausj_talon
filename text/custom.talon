@@ -54,7 +54,7 @@ copy line:
     key(cmd-c)
 
 # Application switching
-oh shell: user.switcher_focus("iterm2")
+oh shell: user.switcher_focus("iTerm2")
 oh trello: user.switcher_focus("trello")
 oh notes: user.switcher_focus("evernote")
 
