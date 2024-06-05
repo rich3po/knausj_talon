@@ -6,7 +6,7 @@ blame
 branch
 checkout
 cherry-pick, cherry pick
-clean
+clean -fd, clean
 clone
 commit
 config

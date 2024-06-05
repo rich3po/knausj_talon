@@ -22,3 +22,9 @@ quit that: key(cmd-q)
 
 doom: key(down)
 jeep: key(up)
+
+# Application switching
+focus shell: user.switcher_focus("iTerm2")
+
+# Spotlight
+launcher: key(cmd-space)
