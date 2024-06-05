@@ -36,3 +36,5 @@ settings():
     user.talon_mode()
 
 ^(talon wake)+$: speech.enable()
+
+^tally$: speech.enable()

@@ -25,3 +25,27 @@ select that: user.select_last_phrase()
 before that: user.before_last_phrase()
 nope that | scratch that: user.clear_last_phrase()
 nope that was <user.formatters>: user.formatters_reformat_last(formatters)
+
+more <user.text>:
+    " "
+    "{text}"
+
+comma <user.text>:
+    ", "
+    "{text}"
+
+period <user.text>:
+    ". "
+    insert(user.formatted_text(text, "CAPITALIZE_FIRST_WORD"))
+
+question <user.text>:
+    "? "
+    insert(user.formatted_text(text, "CAPITALIZE_FIRST_WORD"))
+
+dash <user.text>:
+    " – "
+    "{text}"
+    
+# dot <user.text>:
+#     "."
+#     "{text}"

@@ -186,8 +186,8 @@ code_formatter_names = {
     "string": "SINGLE_QUOTED_STRING",
 }
 prose_formatter_names = {
-    "say": "NOOP",
-    "speak": "NOOP",
+    #"say": "NOOP",
+    #"speak": "NOOP",
     "sentence": "CAPITALIZE_FIRST_WORD",
     "title": "CAPITALIZE_ALL_WORDS",
 }

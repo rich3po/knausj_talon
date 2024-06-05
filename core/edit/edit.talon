@@ -21,8 +21,8 @@ go right: edit.right()
 go up: edit.up()
 go down: edit.down()
 
-go line start | head: edit.line_start()
-go line end | tail: edit.line_end()
+go line start | head | lefty: edit.line_start()
+go line end | tail | ricky: edit.line_end()
 
 go way left:
     edit.line_start()
@@ -49,11 +49,11 @@ select up: edit.extend_line_up()
 select down: edit.extend_line_down()
 
 select word: edit.select_word()
-select word left: edit.extend_word_left()
-select word right: edit.extend_word_right()
+(select word left | scram): edit.extend_word_left()
+(select word right | scrish): edit.extend_word_right()
 
-select way left: edit.extend_line_start()
-select way right: edit.extend_line_end()
+select way left | lecksy: edit.extend_line_start()
+select way right | ricksy: edit.extend_line_end()
 select way up: edit.extend_file_start()
 select way down: edit.extend_file_end()
 
@@ -104,7 +104,7 @@ clear way down:
     edit.delete()
 
 # Copy
-copy that: edit.copy()
+(copy that | copy): edit.copy()
 copy all: user.copy_all()
 copy line: user.copy_line()
 copy line start: user.copy_line_start()
@@ -128,7 +128,7 @@ copy word right: user.copy_word_right()
 #     edit.copy()
 
 # Cut
-cut that: edit.cut()
+(cut that | cut): edit.cut()
 cut all: user.cut_all()
 cut line: user.cut_line()
 cut line start: user.cut_line_start()
@@ -152,7 +152,7 @@ cut word right: user.cut_word_right()
 #     edit.cut()
 
 # Paste
-(pace | paste) that: edit.paste()
+(pace | paste) that | paste: edit.paste()
 (pace | paste) enter:
     edit.paste()
     key(enter)
@@ -172,15 +172,15 @@ new line above: edit.line_insert_up()
 new line below | slap: edit.line_insert_down()
 
 # Insert padding with optional symbols
-(pad | padding): user.insert_between(" ", " ")
-(pad | padding) <user.symbol_key>+:
-    insert(" ")
-    user.insert_many(symbol_key_list)
-    insert(" ")
+#(pad | padding): user.insert_between(" ", " ")
+#(pad | padding) <user.symbol_key>+:
+    # insert(" ")
+    # user.insert_many(symbol_key_list)
+    # insert(" ")
 
 # Undo/redo
-undo that: edit.undo()
-redo that: edit.redo()
+(undo that | undo): edit.undo()
+(redo that | redo): edit.redo()
 
 # Save
 file save: edit.save()

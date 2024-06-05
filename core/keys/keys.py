@@ -150,7 +150,7 @@ punctuation_words = {
     "semicolon": ";",
     "colon": ":",
     "forward slash": "/",
-    "question mark": "?",
+    #"question mark": "?",
     "exclamation mark": "!",
     "exclamation point": "!",
     "asterisk": "*",
@@ -253,10 +253,11 @@ simple_keys = [
 alternate_keys = {
     "wipe": "backspace",
     "delete": "backspace",
-    #'junk': 'backspace',
+    "junk": "backspace",
     "forward delete": "delete",
     "page up": "pageup",
     "page down": "pagedown",
+    "shock": "enter",
 }
 # mac apparently doesn't have the menu key.
 if app.platform in ("windows", "linux"):

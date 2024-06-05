@@ -15,6 +15,8 @@ go private: browser.open_private_window()
 bookmark it: browser.bookmark()
 bookmark tabs: browser.bookmark_tabs()
 (refresh | reload) it: browser.reload()
+# Custom
+reload: browser.reload()
 (refresh | reload) it hard: browser.reload_hard()
 
 bookmark show: browser.bookmarks()

@@ -19,3 +19,7 @@ copy paste:
     edit.copy()
     sleep(50ms)
     edit.paste()
+
+cancel: key(ctrl-c)
+search: key(ctrl-r)
+ellis: "ls -lah"
