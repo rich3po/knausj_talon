@@ -11,9 +11,14 @@ labels: insert("gl")
 open: insert("o")
 archive: insert("e")
 mark unread: key(shift-u)
-search mail: key("/")
-compose mail: key("c")
+mail search: key("/")
+mail compose: key("c")
 reply: insert("r")
 reply all: insert("a")
+select: insert("x")
+archive it:
+    insert("x")
+    sleep(200ms)
+    insert("e")
 
 salutation: "Hi "

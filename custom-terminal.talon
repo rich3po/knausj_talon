@@ -25,3 +25,4 @@ art shell:
 # Tig
 tigger: "tig\n"
 tig status: "tig status\n"
+tig commit: key(shift-c)
