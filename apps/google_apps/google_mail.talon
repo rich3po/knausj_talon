@@ -21,4 +21,14 @@ archive it:
     sleep(200ms)
     insert("e")
 
-salutation: "Hi "
+salutation:
+    insert("Hi ")
+    sleep(200ms)
+    key(tab)
+
+label <user.text>:
+    insert("gl")
+    sleep(200ms)
+    insert("!{text}")
+    sleep(200ms)
+    key(enter)

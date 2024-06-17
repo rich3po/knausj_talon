@@ -4,7 +4,7 @@ address bar | go address | go url: browser.focus_address()
 go page | page focus: browser.focus_page()
 address copy | url copy | copy address | copy url:
     browser.focus_address()
-    sleep(50ms)
+    sleep(200ms)
     edit.copy()
 go home: browser.go_home()
 [go] forward: browser.go_forward()
