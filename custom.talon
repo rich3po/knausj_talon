@@ -28,3 +28,11 @@ focus shell: user.switcher_focus("iTerm2")
 
 # Spotlight
 launcher: key(cmd-space)
+
+# Radio
+radio toggle: 
+    user.switcher_focus("Sonos")
+    sleep(300ms)
+    key(space)
+    sleep(300ms)
+    key(cmd-tab)

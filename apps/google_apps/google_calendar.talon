@@ -5,5 +5,5 @@ browser.host: calendar.google.com
 today: insert("t")
 next: insert("n")
 previous: insert("p")
-view month: insert("m")
-view week: insert("w")
+show month: insert("m")
+show week: insert("w")
