@@ -26,3 +26,13 @@ art shell:
 tigger: "tig\n"
 tig status: "tig status\n"
 tig commit: key(shift-c)
+finish commit:
+    key(ctrl-x)
+    sleep(200ms)
+    insert("y")
+    sleep(200ms)
+    key(enter)
+    sleep(200ms)
+    key(enter)
+    sleep(200ms)
+    insert("q")
