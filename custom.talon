@@ -2,7 +2,7 @@ work email: "richard.jones@acquia.com"
 personal email: "rich.3po@gmail.com"
 personal phone: "07971 603243"
 my name: "Rich Jones"
-insert sick: "Thanks,\n\nRich Jones\nTechnical Account Manager EMEA | Acquia"
+insert sig: "Thanks,\n\nRich Jones\nTechnical Account Manager EMEA | Acquia"
 
 # Core keyboard actions
 shock: key(enter)

@@ -65,3 +65,6 @@ toggle right sidebar: key(cmd-.)
 (previous | last) (element | bit):
     app.notify("please use the voice command 'element last' instead of 'last element'")
     key(shift-tab)
+
+# Custom
+mention <user.text>: "@{text}"

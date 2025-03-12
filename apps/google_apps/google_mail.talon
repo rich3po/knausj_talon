@@ -18,13 +18,23 @@ all reply: insert("a")
 select: insert("x")
 archive it:
     insert("x")
-    sleep(200ms)
+    sleep(500ms)
     insert("e")
 
 salutation:
     insert("Hi ")
-    sleep(200ms)
+    sleep(500ms)
     key(tab)
+    insert(",")
+    key(enter)
+    key(enter)
+
+label unread:
+    insert("gl")
+    sleep(200ms)
+    insert("inbox label:unread")
+    sleep(200ms)
+    key(enter)
 
 label <user.text>:
     insert("gl")
